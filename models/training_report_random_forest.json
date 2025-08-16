@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-17T01:22:27.068686",
+  "model_type": "random_forest",
+  "dataset_path": "data/small_training_set.csv",
+  "dataset_size": 29,
+  "feature_count": 40,
+  "training_results": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "auc_score": 1.0,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00         3\n           1       1.00      1.00      1.00         3\n\n    accuracy                           1.00         6\n   macro avg       1.00      1.00      1.00         6\nweighted avg       1.00      1.00      1.00         6\n",
+    "confusion_matrix": "[[3 0]\n [0 3]]",
+    "feature_importance": "                  feature  importance\n5       num_path_segments    0.130272\n34            url_entropy    0.120686\n0              url_length    0.102041\n2               has_https    0.099697\n1           domain_length    0.091837\n36           path_entropy    0.086033\n35         domain_entropy    0.081633\n20            num_hyphens    0.081633\n22            num_slashes    0.061224\n12       subdomain_length    0.044268\n39     special_char_ratio    0.030612\n4             path_length    0.020408\n18    is_known_legitimate    0.019506\n37            vowel_ratio    0.015221\n3                 has_www    0.010204\n30  num_phishing_keywords    0.002381\n19               num_dots    0.002344\n6               has_query    0.000000\n7            query_length    0.000000\n14     domain_has_hyphens    0.000000\n15         suspicious_tld    0.000000\n8        num_query_params    0.000000\n10        fragment_length    0.000000\n9            has_fragment    0.000000\n23     num_question_marks    0.000000\n21        num_underscores    0.000000\n17          is_ip_address    0.000000\n16             tld_length    0.000000\n11         num_subdomains    0.000000\n13     domain_has_numbers    0.000000\n26         num_ampersands    0.000000\n24        num_equal_signs    0.000000\n31  has_phishing_keywords    0.000000\n29           is_shortened    0.000000\n28   has_suspicious_chars    0.000000\n27           has_punycode    0.000000\n25           num_at_signs    0.000000\n33  has_redirect_patterns    0.000000\n32    has_homograph_chars    0.000000\n38            digit_ratio    0.000000"
+  }
+}
