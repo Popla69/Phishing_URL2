@@ -131,7 +131,7 @@ dmypy.json
 # Project specific
 # Large datasets (keep samples but exclude large files)
 data/large_training_set.csv
-data/processed_features.csv
+# Note: processed_features.csv is included as it contains the main training dataset
 
 # Temporary files
 *.tmp
